@@ -4,16 +4,17 @@ users:list = [
 ]
 print(users)
 
-def remove_user(users_data: list)->None:
+def update_user(users_data: list)->None:
 
-    user_name=input("podaj imię użytkownika do usuniecia: ")
+    user_name=input("podaj imię użytkownika którego dane chcesz zaktualizowac: ")
     for user in users_data:
         if user["name"] == user_name:
-            users_data.remove(user)
+            user["name"] = input("podaj imię użytkownika: ")
+            user["location"] = input("podaj nową lokalizację użytkownika: ")
+            user["posts"] = int(input("podaj nową liczbę postów użytkownika:: "))
 
-remove_user(users)
+update_user(users)
 
 
 
 
-print(users)
