@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d48ebedc7c10c9fb8fe007d2f6b87c95 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d48ebedc7c10c9fb8fe007d2f6b87c95" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d48ebedc7c10c9fb8fe007d2f6b87c95 = L.map(
+                "map_d48ebedc7c10c9fb8fe007d2f6b87c95",
+                {
+                    center: [52.21, 21.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73a9e592d911c70110aed273d81b38d1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_73a9e592d911c70110aed273d81b38d1.addTo(map_d48ebedc7c10c9fb8fe007d2f6b87c95);
+        
+    
+            var marker_d58ab5e11abc2abc203638deec3df873 = L.marker(
+                [53.821389, 22.362222],
+                {
+}
+            ).addTo(map_d48ebedc7c10c9fb8fe007d2f6b87c95);
+        
+    
+        var popup_f5e23bb3092f3c09343a5a3b43e98ba5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3e927475ac427cc203d7ff8a7560796d = $(`<div id="html_3e927475ac427cc203d7ff8a7560796d" style="width: 100.0%; height: 100.0%;">Ełk Bernard</div>`)[0];
+                popup_f5e23bb3092f3c09343a5a3b43e98ba5.setContent(html_3e927475ac427cc203d7ff8a7560796d);
+            
+        
+
+        marker_d58ab5e11abc2abc203638deec3df873.bindPopup(popup_f5e23bb3092f3c09343a5a3b43e98ba5)
+        ;
+
+        
+    
+    
+            var marker_25849616f6d35b789b58ec37b3da4f38 = L.marker(
+                [51.648611, 20.95],
+                {
+}
+            ).addTo(map_d48ebedc7c10c9fb8fe007d2f6b87c95);
+        
+    
+        var popup_30204a5bb0b58394cd23aae84424c4d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9bd7ba88698946ca37e67cde01f6b7c = $(`<div id="html_a9bd7ba88698946ca37e67cde01f6b7c" style="width: 100.0%; height: 100.0%;">Białobrzegi Krzysztof</div>`)[0];
+                popup_30204a5bb0b58394cd23aae84424c4d2.setContent(html_a9bd7ba88698946ca37e67cde01f6b7c);
+            
+        
+
+        marker_25849616f6d35b789b58ec37b3da4f38.bindPopup(popup_30204a5bb0b58394cd23aae84424c4d2)
+        ;
+
+        
+    
+    
+            var marker_8d6d53f9749f097540d2af14eb95f64a = L.marker(
+                [53.408333, 18.445833],
+                {
+}
+            ).addTo(map_d48ebedc7c10c9fb8fe007d2f6b87c95);
+        
+    
+        var popup_6a9ade1cd97b7cea786ae25b7e1efb0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_644db50bb6174889b307de0bb13497c9 = $(`<div id="html_644db50bb6174889b307de0bb13497c9" style="width: 100.0%; height: 100.0%;">Świecie Maja</div>`)[0];
+                popup_6a9ade1cd97b7cea786ae25b7e1efb0c.setContent(html_644db50bb6174889b307de0bb13497c9);
+            
+        
+
+        marker_8d6d53f9749f097540d2af14eb95f64a.bindPopup(popup_6a9ade1cd97b7cea786ae25b7e1efb0c)
+        ;
+
+        
+    
+    
+            var marker_6076f4af6e026bf6211b8df3b5e9368b = L.marker(
+                [51.782778, 22.624167],
+                {
+}
+            ).addTo(map_d48ebedc7c10c9fb8fe007d2f6b87c95);
+        
+    
+        var popup_ab79e2beb5f602feb8aa7f5f998ee776 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8581e958c53bf2d0e0d5a549215a509b = $(`<div id="html_8581e958c53bf2d0e0d5a549215a509b" style="width: 100.0%; height: 100.0%;">Radzyń_Podlaski Zuzanna</div>`)[0];
+                popup_ab79e2beb5f602feb8aa7f5f998ee776.setContent(html_8581e958c53bf2d0e0d5a549215a509b);
+            
+        
+
+        marker_6076f4af6e026bf6211b8df3b5e9368b.bindPopup(popup_ab79e2beb5f602feb8aa7f5f998ee776)
+        ;
+
+        
+    
+</script>
+</html>
